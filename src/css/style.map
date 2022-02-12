@@ -2,11 +2,19 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../sass/style.sass"
+		"../sass/style.sass",
+		"../sass/_variables.sass",
+		"../sass/_mixins.sass",
+		"../sass/_general.sass",
+		"../sass/_media.sass"
 	],
 	"sourcesContent": [
-		"* {\n    padding: 0;\n    margin: 0; }\n.header {\n    list-style-type: none; }\n"
+		"* {\n    font-family: Montserrat, sans-serif; }\n@import \"variables\";\n@import \"mixins\";\n@import \"general\";\n@import \"media\";\n",
+		"",
+		"",
+		"* {\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0; }\nheader {\n    position: relative;\n    height: 70px;\n    list-style-type: none;\n    background: #FFFFFF;\n    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05); }\n",
+		""
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAAG;;;AAChB,AAAA,OAAO,CAAC;EACJ,eAAe,EAAE,IAAI;CAAG"
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,sBAAsB;CAAG;;;AGD1C,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAAG;;;AAChB,AAAA,MAAM,CAAC;EACH,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,sBAAsB;CAAG"
 }

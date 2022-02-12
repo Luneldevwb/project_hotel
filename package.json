@@ -1,0 +1,12 @@
+{
+  "name": "project_hotel",
+  "version": "1.0.0",
+  "description": "main page https://luneldevwb.github.io/project_hotel/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

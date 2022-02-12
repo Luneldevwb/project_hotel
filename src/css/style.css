@@ -26,7 +26,12 @@ header {
   list-style-type: none;
 }
 
-/* line 17, ../../../../../../../../../../../../../Users/lunelnz/Desktop/project_hotel/src/sass/_general.sass */
+/* line 15, ../../../../../../../../../../../../../Users/lunelnz/Desktop/project_hotel/src/sass/_general.sass */
+.menu_item {
+  display: inline-block;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/lunelnz/Desktop/project_hotel/src/sass/_general.sass */
 .menu_link {
   font-size: 14px;
   font-weight: 400;

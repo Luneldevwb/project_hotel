@@ -36,6 +36,8 @@ nav {
   line-height: 17px;
   text-decoration: none;
   color: rgba(31, 32, 65, 0.5);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .menu_link:hover {
   color: #1F2041;

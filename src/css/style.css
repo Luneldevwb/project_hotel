@@ -10,6 +10,7 @@
 }
 
 nav {
+  padding: 0 140px;
   height: 70px;
   background: #fff;
   -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
@@ -40,6 +41,10 @@ nav {
   color: #1F2041;
 }
 
+.logo {
+  margin-right: 285px;
+}
+
 .login_link, .login_link, .registration_link, .registration_link {
   display: block;
   width: 87px;
@@ -62,8 +67,8 @@ nav {
   color: #ffffff;
 }
 .registration_link:hover {
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background: #9792dd;
   border-color: #9792dd;
 }

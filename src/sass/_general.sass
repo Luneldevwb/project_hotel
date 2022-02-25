@@ -15,6 +15,8 @@ nav
     align-items: center
     padding: 18px 0
     list-style: none
+    &_item
+        position: relative
     &_link
         display: block
         font-weight: 400
@@ -22,7 +24,7 @@ nav
         line-height: 17px
         text-decoration: none
         color: $half_dark
-        transition: all .3s
+        transition: all .5s
         &:hover
             color: #1F2041
 .logo
@@ -50,6 +52,24 @@ nav
             transition: all .5s
             background: #9792dd 
             border-color: #9792dd 
+.menu .menu_item:hover .dropdown_menu
+    display: block
+    position: absolute
+    left: 0
+    top: 100%
+    background: transparent 
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05)
+    &_item
+        width: 140px
+        padding: 5px
+    &_link
+        cursor: pointer
+.dropdown_menu
+    display: none
+  
+            
+       
+
 
 
             

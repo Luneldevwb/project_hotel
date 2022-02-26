@@ -46,6 +46,10 @@ nav {
   color: #1F2041;
 }
 
+.angle_down {
+  margin-left: 5px;
+}
+
 .logo {
   margin-right: 285px;
 }
@@ -78,7 +82,7 @@ nav {
   border-color: #9792dd;
 }
 
-.menu .menu_item:hover .dropdown_menu {
+.menu_item:hover .dropdown_menu {
   display: block;
   position: absolute;
   left: 0;
@@ -87,11 +91,11 @@ nav {
   -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
           box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
-.menu .menu_item:hover .dropdown_menu_item {
+.menu_item:hover .dropdown_menu_item {
   width: 140px;
   padding: 5px;
 }
-.menu .menu_item:hover .dropdown_menu_link {
+.menu_item:hover .dropdown_menu_link {
   cursor: pointer;
 }
 

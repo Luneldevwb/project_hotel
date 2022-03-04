@@ -1,6 +1,6 @@
 function defaultTask(cb) {
     // place code for your default task here
-    cb();
+    cb(index.html);
   }
   
   exports.default = defaultTask

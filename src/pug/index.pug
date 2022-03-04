@@ -10,7 +10,7 @@ html(lang="ru")
         base(href="/")
         link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap' rel='stylesheet')
         link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' crossorigin='anonymous')
-        link(rel='stylesheet' href='src/css/style.css')
+        link(rel='stylesheet' href="src/css/style.css")
     body 
         nav
             ul.menu
@@ -55,16 +55,25 @@ html(lang="ru")
                 span 
                 span 
                 span 
-        section.main
-            div.sidebar_container
-              div.sidebar
-                h2 Найдём номера под ваши пожелания
-                form(method="post" action="#" id="find_room")
-                 input(type="text")
-                 input(type="text")
-                 input(type="text")
-                 div.sidebar_btn
-                   button.sibebar_btn_find подобрать номер
+        div.container
+          div.sidebar_title 
+            h2 Найдём номера под ваши пожелания
+          form(method="post" action="#" id="find_room")
+            div.details_box 
+              div.input_box
+                span.details прибытие
+                input(type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required)
+              div.input_box
+                span.details выезд
+                input(type="datepicker" name="datepicker"  placeholder="дд.мм.гггг" id="datepicker" required)
+              div.input_box
+                span.details гости
+                input(type="number" name="visiters" placeholder="Сколько гостей" id="visiters" min="1" required)
+              div.btn
+                button.btn_find подобрать номер
                 
-        script(src="src/js/index.js")
+        script(src="js/index.js")
+           
+        
+
         

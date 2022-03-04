@@ -40,21 +40,27 @@
       </ul>
       <div class="hamburger"> <span> </span><span> </span><span> </span></div>
     </nav>
-    <section class="main">
-      <div class="sidebar_container">
-        <div class="sidebar">
-          <h2>Найдём номера под ваши пожелания</h2>
-          <form method="post" action="#" id="find_room">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <div class="sidebar_btn">
-              <button class="sibebar_btn_find">подобрать номер</button>
-            </div>
-          </form>
-        </div>
+    <div class="container">
+      <div class="sidebar_title"> 
+        <h2>Найдём номера под ваши пожелания</h2>
       </div>
-    </section>
-    <script src="src/js/index.js"></script>
+      <form method="post" action="#" id="find_room">
+        <div class="details_box"> 
+          <div class="input_box"><span class="details">прибытие</span>
+            <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
+          </div>
+          <div class="input_box"><span class="details">выезд</span>
+            <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
+          </div>
+          <div class="input_box"><span class="details">гости</span>
+            <input type="number" name="visiters" placeholder="Сколько гостей" id="visiters" min="1" required>
+          </div>
+          <div class="btn">
+            <button class="btn_find">подобрать номер</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="js/index.js"></script>
   </body>
 </html>

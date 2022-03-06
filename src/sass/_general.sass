@@ -23,8 +23,8 @@ nav
         font-size: 14px
         line-height: 17px
         text-decoration: none
-        color: $half_dark
-        transition: all .5s
+        color: $half_dark_color
+        transition: all .5s easy 
         &:hover
             color: #1F2041
 .angle_down
@@ -52,7 +52,7 @@ nav
         background: $main_gradient_color
         color: #ffffff
         &:hover
-            transition: all .5s
+            transition: all .5s easy
             background: #9792dd 
             border-color: #9792dd 
 .menu_item:hover .dropdown_menu
@@ -86,13 +86,57 @@ nav
             justify-content: space-between
             flex-wrap: wrap
             .input_box
+                background: #ffffff
                 margin-top: 21px
                 width: calc( 100% / 2 - 20px )
+                .details
+                    display: block
+                    margin-bottom: 5px
+                    font-weight: 700
+                    font-size: 12px
+                    text-transform: uppercase
+                    color: $total_dark
                 input
                     height: 44px
                     width: 100%
-                .visiters
+                    border: $frst_quarter_border
+                    border-radius: 4px
+                    color: $thrd_quarter_color
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 18px
+                    padding: 11px 0 8px 15px
+                    text-transform: uppercase
+                    cursor: pointer
+
+            .input_visiters
+                width: 320px
+                .visiters 
+                    padding: 13px 0 13px 15px
+                    text-transform: none
+            .btn
+                margin-top: 31px
+                &_find
+                    height: 44px
                     width: 320px
+                    background: $main_gradient_color
+                    border-radius: 22px
+                    border: none
+                    color: #ffffff
+                    font-weight: 700
+                    font-size: 12px
+                    line-height: 15px
+                    text-align: center
+                    text-transform: uppercase
+                    cursor: pointer
+                    &:hover
+                        transition: all .5s easy
+                        background: #9792dd 
+                        border-color: #9792dd 
+
+
+
+               
     .sidebar_title
         font-weight: 700
         font-size: 24px

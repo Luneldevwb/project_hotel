@@ -39,8 +39,8 @@ nav {
   line-height: 17px;
   text-decoration: none;
   color: rgba(31, 32, 65, 0.5);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.5s easy;
+  transition: all 0.5s easy;
 }
 .menu_link:hover {
   color: #1F2041;
@@ -76,8 +76,8 @@ nav {
   color: #ffffff;
 }
 .registration_link:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.5s easy;
+  transition: all 0.5s easy;
   background: #9792dd;
   border-color: #9792dd;
 }
@@ -127,15 +127,61 @@ nav {
       flex-wrap: wrap;
 }
 .container form .details_box .input_box {
+  background: #ffffff;
   margin-top: 21px;
   width: calc( 100% / 2 - 20px );
+}
+.container form .details_box .input_box .details {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1F2041;
 }
 .container form .details_box .input_box input {
   height: 44px;
   width: 100%;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  color: rgba(31, 32, 65, 0.75);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 0 8px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.container form .details_box .input_box .visiters {
+.container form .details_box .input_visiters {
   width: 320px;
+}
+.container form .details_box .input_visiters .visiters {
+  padding: 13px 0 13px 15px;
+  text-transform: none;
+}
+.container form .details_box .btn {
+  margin-top: 31px;
+}
+.container form .details_box .btn_find {
+  height: 44px;
+  width: 320px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.container form .details_box .btn_find:hover {
+  -webkit-transition: all 0.5s easy;
+  transition: all 0.5s easy;
+  background: #9792dd;
+  border-color: #9792dd;
 }
 .container .sidebar_title {
   font-weight: 700;

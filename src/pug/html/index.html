@@ -41,9 +41,7 @@
       <div class="hamburger"> <span> </span><span> </span><span> </span></div>
     </nav>
     <div class="container">
-      <div class="sidebar_title"> 
-        <h2>Найдём номера под ваши пожелания</h2>
-      </div>
+      <div class="sidebar_title">Найдём номера под ваши пожелания</div>
       <form method="post" action="#" id="find_room">
         <div class="details_box"> 
           <div class="input_box"><span class="details">прибытие</span>
@@ -52,11 +50,11 @@
           <div class="input_box"><span class="details">выезд</span>
             <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
           </div>
-          <div class="input_box"><span class="details">гости</span>
-            <input type="number" name="visiters" placeholder="Сколько гостей" id="visiters" min="1" required>
+          <div class="input_box input_visiters"><span class="details">гости</span>
+            <input class="visiters" type="number" name="visiters" placeholder="Сколько гостей" id="visiters" min="1" required>
           </div>
           <div class="btn">
-            <button class="btn_find">подобрать номер</button>
+            <input class="visiters" type="submit" name="visiters" id="visiters" value="подобрать номер">
           </div>
         </div>
       </form>

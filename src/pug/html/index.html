@@ -40,25 +40,34 @@
       </ul>
       <div class="hamburger"> <span> </span><span> </span><span> </span></div>
     </nav>
-    <div class="container">
-      <div class="sidebar_title">Найдём номера под ваши пожелания</div>
-      <form method="post" action="#" id="find_room">
-        <div class="details_box"> 
-          <div class="input_box"><span class="details">прибытие</span>
-            <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
-          </div>
-          <div class="input_box"><span class="details">выезд</span>
-            <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
-          </div>
-          <div class="input_box input_visiters"><span class="details">гости</span>
-            <input class="visiters" type="number" name="visiters" placeholder="Сколько гостей" id="visiters" min="1" required>
-          </div>
-          <div class="btn">
-            <input class="btn_find" type="submit" value="подобрать номер">
-          </div>
+    <section class="main">
+      <div class="slides">
+        <div class="slide">
+          <img class="slide_img3" src="src/img/background/image3.jpg" all="">
+          <img class="slide_img2" src="src/img/background/image2.jpg" all="">
+          <img class="slide_img1" src="src/img/background/image.jpg" all="">
         </div>
-      </form>
-    </div>
+      </div>
+      <div class="container_form">
+        <div class="sidebar_title">Найдём номера под ваши пожелания</div>
+        <form method="post" action="#" id="find_room">
+          <div class="details_box"> 
+            <div class="input_box"><span class="details">прибытие</span>
+              <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
+            </div>
+            <div class="input_box"><span class="details">выезд</span>
+              <input type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required>
+            </div>
+            <div class="input_box input_visiters"><span class="details">гости</span>
+              <input class="visiters" type="number" name="visiters" placeholder="Сколько гостей" id="visiters" min="1" required>
+            </div>
+            <div class="btn">
+              <input class="btn_find" type="submit" value="подобрать номер">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
     <script src="js/index.js"></script>
   </body>
 </html>

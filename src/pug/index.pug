@@ -55,21 +55,27 @@ html(lang="ru")
                 span 
                 span 
                 span 
-        div.container
-          div.sidebar_title Найдём номера под ваши пожелания
-          form(method="post" action="#" id="find_room")
-            div.details_box 
-              div.input_box
-                span.details прибытие
-                input(type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required)
-              div.input_box
-                span.details выезд
-                input(type="datepicker" name="datepicker"  placeholder="дд.мм.гггг" id="datepicker" required)
-              div.input_box.input_visiters
-                span.details гости
-                input(type="number" name="visiters" placeholder="Сколько гостей" class="visiters" id="visiters" min="1" required)
-              div.btn
-                input(class="btn_find" type="submit"  value="подобрать номер" )
+        section.main
+          div.slides
+            div.slide
+             img.slide_img3(src='src/img/background/image3.jpg' all="")
+             img.slide_img2(src='src/img/background/image2.jpg' all="")
+             img.slide_img1(src='src/img/background/image.jpg' all="")
+          div.container_form
+            div.sidebar_title Найдём номера под ваши пожелания
+            form(method="post" action="#" id="find_room")
+              div.details_box 
+                div.input_box
+                  span.details прибытие
+                  input(type="datepicker" name="datepicker" placeholder="дд.мм.гггг" id="datepicker" required)
+                div.input_box
+                  span.details выезд
+                  input(type="datepicker" name="datepicker"  placeholder="дд.мм.гггг" id="datepicker" required)
+                div.input_box.input_visiters
+                  span.details гости
+                  input(type="number" name="visiters" placeholder="Сколько гостей" class="visiters" id="visiters" min="1" required)
+                div.btn
+                  input(class="btn_find" type="submit"  value="подобрать номер" )
                 
         script(src="js/index.js")
            
